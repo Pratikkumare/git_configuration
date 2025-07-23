@@ -1,0 +1,27 @@
+Git hub first configuration in you local machine 
+
+git config --global user.name "Admin"
+
+git config --global user.email  pratikkumare36@gmail.com
+
+
+
+git configuration to push you local files to git hub
+
+echo "# git_configuration" >> README.md
+
+git init  ---  .git folder for all track
+
+git status - 
+
+git add README.md   -- tracking by will start 
+
+git add * -- to add multiple the files 
+
+git commit -m "first commit" -- staging
+
+git branch -M main  -- Master will be changed to main
+
+git remote add origin https://github.com/Pratikkumare/git_configuration.git
+
+git push -u origin main
